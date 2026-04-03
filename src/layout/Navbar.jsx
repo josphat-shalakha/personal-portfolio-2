@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { X, Menu } from "lucide-react";
-import { Button } from "../components/Button"; // adjust path
+import Button from "../components/Button";
 import logo from "../assets/logo.png"; // adjust path
 
 // Example navLinks
@@ -13,8 +13,7 @@ const navLinks = [
   { name: "Contact", link: "#contact" },
 ];
 
-
-export const Navbar = () => {
+ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   // Example handleDownload function

@@ -64,7 +64,7 @@ const Experience = () => {
 
                 {/* Timeline Dot */}
                 <div className="absolute left-[-4px] md:left-1/2 md:-translate-x-1/2 w-3 h-3 bg-green-500 rounded-full border-4 border-black shadow-[0_0_10px_rgba(34,197,94,0.8)]"></div>
-                {}
+                
               </div>
                 
             ))}

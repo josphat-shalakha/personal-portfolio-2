@@ -1,12 +1,15 @@
 import React from "react";
 
-export const Button = ({ children, className = "", ...props }) => {
+const Button = ({ children, className = "", type = "button", ...props }) => {
   return (
     <button
-      className={`inline-flex items-center justify-center ${className}`}
+      type={type}
+      className={`inline-flex items-center justify-center transition-all duration-300 ${className}`}
       {...props}
     >
       {children}
     </button>
   );
 };
+
+export default Button;

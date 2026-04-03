@@ -1,22 +1,22 @@
 import React from "react";
+import talesImg from "../assets/tales-of-wonder.png";
+import deltaImg from "../assets/delta-energy.png";
 
 const projects = [
   {
-    id: 1,
+ id: 1,
     title: "Delta Energy System (K) Ltd",
     category: "Energy Solutions",
-    description:
-      "Developed a robust platform for energy power solutions and backup systems.",
-    image: "/project/delta-energy.png",
+    description: "Developed a robust platform for energy power solutions and backup systems.",
+    image: deltaImg, // ✨ Use the variable name here
     tags: ["React", "Tailwind", "Vite"],
   },
   {
     id: 2,
     title: "Tales of Wonder",
     category: "Cultural Storytelling",
-    description:
-      "A YouTube platform dedicated to preserving and sharing folk African stories.",
-    image: "/project/tales-of-wonder.png", // ✅ FIXED
+    description: "A YouTube platform dedicated to preserving and sharing folk African stories.",
+    image: talesImg, // ✨ Use the variable name here
     tags: ["Content Strategy", "Digital Branding"],
   },
 ];

@@ -1,6 +1,4 @@
-import React from "react";
-import Footer from "./layout/Footer";
-// Components - Standardized to Default Imports (No curly braces)
+import React from "react"; // Note: Modern React (17+) often doesn't need this line, but it's fine to keep!
 import Navbar from "./layout/Navbar";
 import Hero from "./layout/Hero";
 import About from "./layout/About";
@@ -8,6 +6,7 @@ import Projects from "./layout/Projects";
 import Experience from "./layout/Experience";
 import Testimonials from "./layout/Testimonials";
 import Contact from "./layout/Contact";
+import Footer from "./layout/Footer";
 
 function App() {
   return (
@@ -19,11 +18,10 @@ function App() {
         <About />
         <Projects />
         <Experience />
-         <Testimonials />
-         <Contact />
-        {/* Uncomment these as you finish the components */}
-        {/* <Experience /> */} 
+        <Testimonials />
+        <Contact />
       </main>
+
       <Footer />
     </div>
   );
